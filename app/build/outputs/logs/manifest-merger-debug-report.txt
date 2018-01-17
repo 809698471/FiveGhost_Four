@@ -1,0 +1,742 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\2379ee31bd41f2c4f1d2cbddeafb3d1a\AndroidManifest.xml:15:1-21:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:17:1-55:12
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-162:12
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\9147e20932fefdc4d6773d75ef1fe94d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android:multidex:0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-0.1.aar\d705d3d0393c2afa851dd406ff80e879\AndroidManifest.xml:17:1-22:12
+MERGED from [com.alipay.euler:andfix:0.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\andfix-0.3.1.aar\56a7f3ab929031f0d76e2f0bea3b0948\AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1b677a46822abe4e95276f22d35a6ac6\AndroidManifest.xml:2:1-7:12
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:17:1-28:12
+MERGED from [com.jaeger.statusbarutil:library:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\7ed448a72f56000094547c04a0c2700c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.zhy:percent-support-extends:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-support-extends-1.0.1.aar\7a4fec9f4969b137a8a28e1f8ec742d1\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ab364ecd3229af55f91e9722313424da\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+	package
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:8:5-75
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-75
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:11:5-67
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:14:5-89
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:14:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:21:22-65
+application
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:23:5-130:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:45:5-53:19
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-160:19
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-160:19
+MERGED from [com.alipay.euler:andfix:0.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\andfix-0.3.1.aar\56a7f3ab929031f0d76e2f0bea3b0948\AndroidManifest.xml:11:5-12:19
+MERGED from [com.alipay.euler:andfix:0.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\andfix-0.3.1.aar\56a7f3ab929031f0d76e2f0bea3b0948\AndroidManifest.xml:11:5-12:19
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:13:5-17:19
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:22:5-26:19
+MERGED from [com.jaeger.statusbarutil:library:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\7ed448a72f56000094547c04a0c2700c\AndroidManifest.xml:11:5-20
+MERGED from [com.jaeger.statusbarutil:library:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\7ed448a72f56000094547c04a0c2700c\AndroidManifest.xml:11:5-20
+MERGED from [com.zhy:percent-support-extends:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-support-extends-1.0.1.aar\7a4fec9f4969b137a8a28e1f8ec742d1\AndroidManifest.xml:11:5-14:19
+MERGED from [com.zhy:percent-support-extends:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-support-extends-1.0.1.aar\7a4fec9f4969b137a8a28e1f8ec742d1\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ab364ecd3229af55f91e9722313424da\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ab364ecd3229af55f91e9722313424da\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:27:9-41
+	android:roundIcon
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:28:9-54
+	android:icon
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:30:9-40
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:24:9-28
+activity#com.admiralfivetigers.fiveghost.WelcomActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:31:9-33:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:32:13-43
+activity#com.admiralfivetigers.fiveghost.MainActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:34:9-36:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:35:13-41
+activity#com.admiralfivetigers.fiveghost.StartActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:39:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:38:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:43:27-74
+activity#com.admiralfivetigers.fiveghost.ZxingActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:46:9-48:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:48:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:47:13-42
+activity#com.admiralfivetigers.fiveghost.VersionActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:49:9-51:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:51:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:50:13-44
+activity#com.admiralfivetigers.fiveghost.LoginActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:52:9-54:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:54:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:53:13-42
+activity#com.admiralfivetigers.fiveghost.ScanActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:55:9-57:55
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:57:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:56:13-41
+activity#com.admiralfivetigers.fiveghost.RegisterActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:58:9-60:54
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:60:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:59:13-45
+activity#com.umeng.socialize.media.WBShareCallBackActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:61:9-66:75
+	android:screenOrientation
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:65:13-49
+	android:exported
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:64:13-37
+	android:configChanges
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:63:13-63
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:66:13-72
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:62:13-77
+activity#com.sina.weibo.sdk.web.WeiboSdkWebActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:67:9-71:58
+	android:windowSoftInputMode
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:71:13-55
+	android:exported
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:70:13-37
+	android:configChanges
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:68:13-70
+activity#com.sina.weibo.sdk.share.WbShareTransActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:72:9-81:20
+	android:launchMode
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:74:13-44
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:75:13-83
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:73:13-73
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:76:13-80:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:77:17-92
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:77:25-89
+category#android.intent.category.DEFAULT
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:79:27-73
+activity#com.umeng.qq.tencent.AuthActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:82:9-94:20
+	android:launchMode
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:84:13-44
+	android:noHistory
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:83:13-61
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:86:13-93:29
+action#android.intent.action.VIEW
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:87:17-69
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:87:25-66
+category#android.intent.category.BROWSABLE
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:90:17-78
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:90:27-75
+data
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:92:17-59
+	android:scheme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:92:23-56
+activity#com.umeng.qq.tencent.AssistActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:95:9-99:75
+	android:screenOrientation
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:98:13-49
+	android:configChanges
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:97:13-74
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:99:13-72
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:96:13-63
+meta-data#UMENG_APPKEY
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:101:9-103:56
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:103:13-53
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:102:13-40
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:104:9-106:64
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:106:13-61
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:105:13-48
+meta-data#UMENG_CHANNEL
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:107:9-109:42
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:109:13-39
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:108:13-41
+meta-data#BUGLY_APPID
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:111:9-113:42
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:113:13-39
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:112:13-39
+meta-data#BUGLY_APP_VERSION
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:115:9-117:43
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:117:13-40
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:116:13-45
+meta-data#BUGLY_APP_CHANNEL
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:119:9-121:43
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:121:13-40
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:120:13-45
+meta-data#BUGLY_ENABLE_DEBUG
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:123:9-125:36
+	android:value
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:125:13-33
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:124:13-46
+activity#com.admiralfivetigers.fiveghost.AndFixActivity
+ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:127:9-129:25
+	android:theme
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:128:13-52
+	android:name
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml:127:19-49
+uses-sdk
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\2379ee31bd41f2c4f1d2cbddeafb3d1a\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\2379ee31bd41f2c4f1d2cbddeafb3d1a\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:19:5-43
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\9147e20932fefdc4d6773d75ef1fe94d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\9147e20932fefdc4d6773d75ef1fe94d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android:multidex:0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-0.1.aar\d705d3d0393c2afa851dd406ff80e879\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android:multidex:0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-0.1.aar\d705d3d0393c2afa851dd406ff80e879\AndroidManifest.xml:20:5-43
+MERGED from [com.alipay.euler:andfix:0.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\andfix-0.3.1.aar\56a7f3ab929031f0d76e2f0bea3b0948\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alipay.euler:andfix:0.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\andfix-0.3.1.aar\56a7f3ab929031f0d76e2f0bea3b0948\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1b677a46822abe4e95276f22d35a6ac6\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1b677a46822abe4e95276f22d35a6ac6\AndroidManifest.xml:5:5-43
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.recker.flybanner:flybanner:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flybanner-1.3.aar\355618f784d831c02c21ba5c0821e9cc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:20:5-44
+MERGED from [com.jaeger.statusbarutil:library:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\7ed448a72f56000094547c04a0c2700c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\7ed448a72f56000094547c04a0c2700c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:percent-support-extends:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-support-extends-1.0.1.aar\7a4fec9f4969b137a8a28e1f8ec742d1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:percent-support-extends:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-support-extends-1.0.1.aar\7a4fec9f4969b137a8a28e1f8ec742d1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ab364ecd3229af55f91e9722313424da\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ab364ecd3229af55f91e9722313424da\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		ADDED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+		INJECTED from D:\StudioWork\FiveGhost_Four\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\f030bc3cb1c806cf0106b748ff446a53\AndroidManifest.xml:47:13-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-82
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-84
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-85
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:22-82
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:22-73
+service#com.taobao.accs.ChannelService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:9-38:19
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-39
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:13-58
+intent-filter#com.taobao.accs.intent.action.SERVICE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
+action#com.taobao.accs.intent.action.SERVICE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
+intent-filter#com.taobao.accs.intent.action.ELECTION
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:13-37:29
+action#com.taobao.accs.intent.action.ELECTION
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:17-81
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:25-78
+service#com.taobao.accs.data.MsgDistributeService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:39:9-45:19
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:13-69
+intent-filter#com.taobao.accs.intent.action.RECEIVE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:42:13-44:29
+action#com.taobao.accs.intent.action.RECEIVE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:43:17-80
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:43:25-77
+receiver#com.taobao.accs.EventReceiver
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-64:20
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-39
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-57
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-52:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:17-79
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:51:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:13-55:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:17-79
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-60:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:25-77
+intent-filter#android.intent.action.USER_PRESENT
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-63:29
+action#android.intent.action.USER_PRESENT
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:25-74
+receiver#com.taobao.accs.ServiceReceiver
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-74:20
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-39
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-59
+intent-filter#com.taobao.accs.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-70:29
+action#com.taobao.accs.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:17-80
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:69:25-77
+intent-filter#com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:13-73:29
+action#com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:17-88
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:25-85
+service#com.taobao.accs.internal.AccsJobService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:76:9-79:42
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-39
+	android:permission
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-69
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:13-67
+service#com.taobao.accs.ChannelService$KernelService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:9-82:42
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:82:13-39
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-72
+service#org.android.agoo.accs.AgooService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:83:9-89:19
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:13-61
+service#com.umeng.message.UmengIntentService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-97:19
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-39
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-64
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:13-96:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:95:17-81
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:95:25-78
+service#com.umeng.message.XiaomiIntentService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:98:9-105:19
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:101:13-39
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:100:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:99:13-65
+receiver#com.taobao.agoo.AgooCommondReceiver
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:9-119:20
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:13-39
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-63
+intent-filter#${applicationId}.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:111:13-113:29
+intent-filter#com.admiralfivetigers.fiveghost.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:111:13-113:29
+action#${applicationId}.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-81
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:25-78
+action#com.admiralfivetigers.fiveghost.intent.action.COMMAND
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-81
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:25-78
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:121:9-128:19
+	android:process
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-39
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:122:13-79
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-127:29
+action#org.android.agoo.client.MessageReceiverService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:17-89
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:25-86
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-132:40
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-80
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:134:9-149:19
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:13-80
+intent-filter#com.umeng.messge.registercallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-139:29
+action#com.umeng.messge.registercallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:138:17-83
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:138:25-80
+intent-filter#com.umeng.message.enablecallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-142:29
+action#com.umeng.message.enablecallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:17-82
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:25-79
+intent-filter#com.umeng.message.disablecallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-145:29
+action#com.umeng.message.disablecallback.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:17-83
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:25-80
+intent-filter#com.umeng.message.message.handler.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:146:13-148:29
+action#com.umeng.message.message.handler.action
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:147:17-83
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:147:25-80
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:150:9-152:40
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:152:13-37
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:151:13-74
+provider#com.umeng.message.provider.MessageProvider
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:154:9-159:20
+	android:authorities
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:156:13-65
+	android:exported
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:155:13-70
+grant-uri-permission
+ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:158:13-62
+	android:pathPattern
+		ADDED from [:PushSDK] D:\StudioWork\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:158:35-59
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5ba96bfecef770e540dd547a1303d7a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\2a6a5fcbca7d820cb35027346122b6d8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\cef80c6705e1405b620c1fb19c96b7cd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7182ad0a40f882156df161a444ec5d7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\79c4b0bd7db3127066519774caece51b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9a7ee678998517d20e3dbf12d8c1cc01\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2517788d8137ad3a7f7ffbf389cfa08f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7c0d4f56b94aad0acde4a15216b0623f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\714135a4b68e61f21a17e61af53f820a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\768d6c5c4bf5039e37944d6f4731a1e2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\97746db80a465fcf7d3af9ca3dcd192a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f243d299e7951d2f761f12b2eb0be63d\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\cd09429cc58dc9d7e6d62e242eed6f17\AndroidManifest.xml:24:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\cbab6fa246bc9a8b9f8a2cae024c0505\AndroidManifest.xml:26:13-58

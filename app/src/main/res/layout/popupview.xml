@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/popup_bg2x"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:src="@mipmap/btn_close2x" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="忘记密码"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="100%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%" />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_heightPercent="100%"
+        app:layout_widthPercent="100%">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="用 户 名："
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="注册所用手机号"
+            app:layout_heightPercent="7%"
+            app:layout_widthPercent="70%" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="2%"
+            app:layout_widthPercent="100%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="新 密 码 ："
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="请输入密码"
+            app:layout_heightPercent="7%"
+            app:layout_widthPercent="70%" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="2%"
+            app:layout_widthPercent="100%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="验 证 码 ："
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:hint="请输入验证码"
+            app:layout_heightPercent="7%"
+            app:layout_widthPercent="70%" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="5%"
+            app:layout_widthPercent="100%" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/btn_shape"
+            android:text="获 取 验 证 码"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_heightPercent="9%"
+            app:layout_widthPercent="80%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

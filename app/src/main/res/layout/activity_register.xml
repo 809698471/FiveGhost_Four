@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.admiralfivetigers.fiveghost.RegisterActivity">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="4%"
+        app:layout_widthPercent="100%" />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="100%">
+
+        <ImageView
+            android:id="@+id/mReturn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_back_normal"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="10%" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal"
+            android:text="新用户注册"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="80%" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@mipmap/icon_more"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="10%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="100%" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:text="请输入注册手机号"
+        android:textColor="#3ADC96"
+        app:layout_heightPercent="3%"
+        app:layout_widthPercent="100%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="1%"
+        app:layout_widthPercent="100%" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/select1"
+        android:inputType="number"
+        android:maxLength="11"
+        android:gravity="center"
+        android:textColor="#fff"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="80%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="100%" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="请输入验证码"
+        android:textColor="#3ADC96" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="1%"
+        app:layout_widthPercent="100%" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/select1"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="80%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="100%" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="请输入6位密码"
+        android:textColor="#3ADC96" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="1%"
+        app:layout_widthPercent="100%" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/select1"
+        android:password="true"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="80%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="100%" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="请再次确认密码"
+        android:textColor="#3ADC96" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="1%"
+        app:layout_widthPercent="100%" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/select1"
+        android:password="true"
+        android:textColor="#fff"
+        android:gravity="center"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="80%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="100%" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_havecode_normal"
+        android:text="获取验证码"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="70%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="1%"
+        app:layout_widthPercent="100%" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="注册即代表已阅读并同意"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/xieyi"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:background="#0A38EF" />
+        </LinearLayout>
+    </LinearLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_pic_bg"
+    android:orientation="vertical"
+    tools:context="com.admiralfivetigers.fiveghost.LoginActivity">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_heightPercent="55%"
+        app:layout_widthPercent="100%" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#33ffffff"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="75%">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icon_user" />
+
+        <EditText
+            android:id="@+id/login_edit_yhm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="用户名/手机号/邮箱"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColorHint="#7c7c7e" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#33ffffff"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="75%">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icon_lock" />
+
+        <EditText
+            android:id="@+id/login_edit_mm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:hint="6位数字或字母"
+            android:inputType="textPassword"
+            android:textColorHint="#7c7c7e" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_heightPercent="4%"
+        app:layout_widthPercent="100%" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_havecode_normal"
+        android:text="登录"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="75%" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="75%" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_heightPercent="4%"
+        app:layout_widthPercent="75%">
+
+        <TextView
+            android:id="@+id/login_wangji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:textColor="#7c7c7e" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/login_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhucexieyi"
+            android:textColor="#7c7c7e" />
+    </LinearLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>
