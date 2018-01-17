@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RadioButton;
-import android.widget.Toast;
 
 import com.admiralfivetigers.fiveghost.ui.fragment.OnedelfFragment;
 import com.admiralfivetigers.fiveghost.ui.fragment.OrderFragment;
@@ -64,8 +63,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        //判断home_pager是否为null
       if (suggestFragment == null) {
           suggestFragment=new SuggestFragment();
-
-//            transaction.show(suggestFragment);
 //            //设置首页默认被选中
           rb_main_01.setChecked(true);
       }
@@ -89,11 +86,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.rb_main_01:
                 if (suggestFragment == null) {
                     suggestFragment = new SuggestFragment();
-                    Toast.makeText(this, "11111", Toast.LENGTH_SHORT).show();
                     transaction.add(R.id.framlayout, this.suggestFragment);
                 } else {
                     transaction.show(suggestFragment);
-                    Toast.makeText(this, "222222", Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.rb_02:
