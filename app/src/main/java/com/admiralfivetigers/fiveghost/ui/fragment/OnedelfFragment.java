@@ -6,10 +6,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
-import com.admiralfivetigers.fiveghost.MainActivity;
 import com.admiralfivetigers.fiveghost.R;
-import com.jaeger.library.StatusBarUtil;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 /**
  * Created by 韩学文 on 2018/1/11.
@@ -18,11 +21,68 @@ import com.jaeger.library.StatusBarUtil;
  * 也不做平淡生活里委曲求全的谁
  */
 //个人
-public class OnedelfFragment extends Fragment {
+public class OnedelfFragment extends Fragment implements View.OnClickListener {
+    //收藏路线
+    @BindView(R.id.rl_collectionroute_oneself)
+    RelativeLayout rlCollectionrouteOneself;
+    //我的关注
+    @BindView(R.id.rl_myconcern_oneself)
+    RelativeLayout rlMyconcernOneself;
+    //常用旅客
+    @BindView(R.id.rl_commonlyusedpassenger_oneself)
+    RelativeLayout rlCommonlyusedpassengerOneself;
+    //浏览记录
+    @BindView(R.id.rl_browserecord_oneself)
+    RelativeLayout rlBrowserecordOneself;
+    //分享APP
+    @BindView(R.id.rl_shareapp_oneself)
+    RelativeLayout rlShareappOneself;
+    //设置
+    @BindView(R.id.rl_settings_oneself)
+    RelativeLayout rlSettingsOneself;
+    //帮助中心
+    @BindView(R.id.rl_helpcenter_oneself)
+    RelativeLayout rlHelpcenterOneself;
+    Unbinder unbinder;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.onedelf, container, false);
+        unbinder = ButterKnife.bind(this, view);
         return view;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            //收藏路线
+            case R.id.rl_collectionroute_oneself:
+                break;
+            //我的关注
+            case R.id.rl_myconcern_oneself:
+                break;
+            //常用旅客
+            case R.id.rl_commonlyusedpassenger_oneself:
+                break;
+            //浏览记录
+            case R.id.rl_browserecord_oneself:
+                break;
+            //分享APP
+            case R.id.rl_shareapp_oneself:
+                break;
+            //设置
+            case R.id.rl_settings_oneself:
+                break;
+            //帮助中心
+            case R.id.rl_helpcenter_oneself:
+                break;
+        }
     }
 }

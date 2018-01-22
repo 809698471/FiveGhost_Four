@@ -16,11 +16,11 @@
         android:layout_marginTop="20dp">
 
         <ImageView
-            android:src="@mipmap/ic_launcher_round"
             android:id="@+id/iv_avatar_oneself"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_launcher_round" />
 
         <TextView
             android:id="@+id/tv_name_oneself"
@@ -86,15 +86,16 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_collectionroute_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_one"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_one">
 
@@ -125,16 +126,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_myconcern_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_two"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_two">
 
@@ -153,7 +156,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/iv_round_two"
-                android:text="收藏路线"
+                android:text="我的关注"
                 android:textColor="#fff"
                 android:textSize="20dp" />
 
@@ -165,16 +168,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_commonlyusedpassenger_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_three"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_thre">
 
@@ -205,16 +210,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_browserecord_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_for"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_for">
 
@@ -245,16 +252,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_shareapp_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_five"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_one">
 
@@ -285,16 +294,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_settings_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_six"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_thre">
 
@@ -325,16 +336,18 @@
                 android:layout_marginRight="10dp"
                 android:src="@mipmap/arrow_right_oneself" />
         </RelativeLayout>
+
         <RelativeLayout
-            android:layout_weight="1"
+            android:id="@+id/rl_helpcenter_oneself"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <RelativeLayout
-                android:layout_centerVertical="true"
                 android:id="@+id/iv_round_seven"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/round_two">
 
