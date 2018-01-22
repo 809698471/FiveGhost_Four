@@ -1,6 +1,36 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\res\\merged\\debug\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c8feb30411d83b66c4dfc4459dd3d084\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c8feb30411d83b66c4dfc4459dd3d084\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\StudioWork\\FiveGhost_Four\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {

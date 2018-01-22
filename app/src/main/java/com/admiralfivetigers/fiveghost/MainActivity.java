@@ -15,8 +15,6 @@ import com.admiralfivetigers.fiveghost.ui.fragment.SuggestFragment;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-
     private FrameLayout framlayout;
     private RadioButton rb_main_01;
     private RadioButton rb_02;

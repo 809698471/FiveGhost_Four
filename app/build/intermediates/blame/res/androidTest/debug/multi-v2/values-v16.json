@@ -1,6 +1,40 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\00b441920f9929dccf8285bb6bc6b5f6\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c8feb30411d83b66c4dfc4459dd3d084\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\StudioWork\\FiveGhost_Four\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
@@ -15,6 +49,40 @@
                 },
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2a6a5fcbca7d820cb35027346122b6d8\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\00b441920f9929dccf8285bb6bc6b5f6\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\韩学文\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c8feb30411d83b66c4dfc4459dd3d084\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

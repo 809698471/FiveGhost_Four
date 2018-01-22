@@ -1,4 +1,4 @@
-#Wed Jan 17 10:36:41 CST 2018
-base.0=D\:\\StudioWork\\FiveGhost_Four\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Jan 22 14:02:26 CST 2018
+base.0=D\:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

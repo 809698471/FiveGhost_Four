@@ -1,10 +1,369 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/person_bg">
 
-    <TextView
+    <include
+        android:id="@+id/top_oneself"
+        layout="@layout/title_all"></include>
+
+    <RelativeLayout
+        android:id="@+id/rl_center_oneself"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="个人" />
-</LinearLayout>
+        android:layout_height="150dp"
+        android:layout_below="@id/top_oneself"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/iv_avatar_oneself"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tv_name_oneself"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_avatar_oneself"
+            android:text="游客—ABC"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_oneself"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_avatar_oneself">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/icon_sex" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="24"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/icon_location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="北京市"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_center_oneself"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_one">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="1"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_one"
+                android:text="收藏路线"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_two">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="2"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_two"
+                android:text="收藏路线"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_thre">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="3"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_three"
+                android:text="常用旅客"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_for"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_for">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="4"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_for"
+                android:text="浏览记录"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_one">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="5"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_five"
+                android:text="分享APP"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_thre">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="6"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_six"
+                android:text="设置"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_round_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/round_two">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="7"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_round_seven"
+                android:text="帮助中心"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/arrow_right_oneself" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
