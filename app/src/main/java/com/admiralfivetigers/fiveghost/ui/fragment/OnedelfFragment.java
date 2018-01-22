@@ -71,7 +71,9 @@ public class OnedelfFragment extends Fragment implements View.OnClickListener {
         View view = inflater.inflate(R.layout.onedelf, container, false);
         unbinder = ButterKnife.bind(this, view);
         tvTitleAll.setText("个人中心");
-
+       /*
+       * 测试
+       * */
         ivMessageAll.setVisibility(View.GONE);
         rlSettingsOneself.setOnClickListener(this);
         rlHelpcenterOneself.setOnClickListener(this);
