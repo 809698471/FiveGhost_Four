@@ -1,5 +1,6 @@
 package com.admiralfivetigers.fiveghost.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,6 +13,14 @@ import com.admiralfivetigers.fiveghost.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/*
+*  设置
+*    账号安全 ——AccountSecurityActivity
+*    隐私设置
+*    用户注册协议
+*    清理缓存
+*    意见建议
+* */
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener {
 
     @BindView(R.id.iv_back_all)
@@ -55,6 +64,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         switch (v.getId()) {
             //帐号安全
             case R.id.rl_accountsecurity_setting:
+                startActivity(new Intent(SettingsActivity.this, AccountSecurityActivity.class));
                 break;
             //隐私设置
             case R.id.rl_privacysettings_setting:

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jan 22 16:48:53 CST 2018
+#Mon Jan 22 19:12:28 CST 2018
 2.base=D\:\\Android\\ThreeCoder\\FiveGhost_Four\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 5.set=NATIVE_RESOURCE
 0.path=lib/x86/libtnet-3.1.11.so

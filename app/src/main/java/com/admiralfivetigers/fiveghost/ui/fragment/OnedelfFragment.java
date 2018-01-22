@@ -7,7 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.admiralfivetigers.fiveghost.R;
 import com.admiralfivetigers.fiveghost.ui.activity.HelpCenterActivity;
@@ -23,7 +25,16 @@ import butterknife.Unbinder;
  * 宁愿做灯红酒绿中张牙舞爪的鬼
  * 也不做平淡生活里委曲求全的谁
  */
-//个人
+/*
+* 个人中心
+*      收藏路线
+*      我的关注
+*      常用旅客
+*      浏览记录
+*      分享APP
+*      设置——SettingsActivity
+*      帮助中心——HelpCenterActivity
+* */
 public class OnedelfFragment extends Fragment implements View.OnClickListener {
     //收藏路线
     @BindView(R.id.rl_collectionroute_oneself)
@@ -47,12 +58,20 @@ public class OnedelfFragment extends Fragment implements View.OnClickListener {
     @BindView(R.id.rl_helpcenter_oneself)
     RelativeLayout rlHelpcenterOneself;
     Unbinder unbinder;
+    @BindView(R.id.iv_back_all)
+    ImageView ivBackAll;
+    @BindView(R.id.tv_title_all)
+    TextView tvTitleAll;
+    @BindView(R.id.iv_message_all)
+    ImageView ivMessageAll;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.onedelf, container, false);
         unbinder = ButterKnife.bind(this, view);
+        tvTitleAll.setText("个人中心");
+        ivMessageAll.setVisibility(View.GONE);
         rlSettingsOneself.setOnClickListener(this);
         rlHelpcenterOneself.setOnClickListener(this);
         return view;
