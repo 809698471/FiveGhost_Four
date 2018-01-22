@@ -57,7 +57,7 @@
             android:theme="@style/TranslucentTheme" />
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/TranslucentTheme"/>
+            android:theme="@style/TranslucentTheme" />
         <activity
             android:name="com.umeng.socialize.media.WBShareCallBackActivity"
             android:configChanges="keyboardHidden|orientation"
@@ -124,9 +124,18 @@
             android:name="BUGLY_ENABLE_DEBUG"
             android:value="true" />
 
-        <activity android:name=".AndFixActivity"
-            android:theme="@style/TranslucentTheme"
-            ></activity>
+        <activity
+            android:name=".AndFixActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".ui.activity.HelpCenterActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name=".ui.activity.AccountSecurityActivity"
+            android:theme="@style/TranslucentTheme"></activity>
     </application>
 
 </manifest>

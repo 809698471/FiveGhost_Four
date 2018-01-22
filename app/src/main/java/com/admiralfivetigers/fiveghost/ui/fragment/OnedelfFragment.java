@@ -1,5 +1,6 @@
 package com.admiralfivetigers.fiveghost.ui.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.admiralfivetigers.fiveghost.R;
+import com.admiralfivetigers.fiveghost.ui.activity.HelpCenterActivity;
+import com.admiralfivetigers.fiveghost.ui.activity.SettingsActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -50,6 +53,8 @@ public class OnedelfFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.onedelf, container, false);
         unbinder = ButterKnife.bind(this, view);
+        rlSettingsOneself.setOnClickListener(this);
+        rlHelpcenterOneself.setOnClickListener(this);
         return view;
     }
 
@@ -79,9 +84,11 @@ public class OnedelfFragment extends Fragment implements View.OnClickListener {
                 break;
             //设置
             case R.id.rl_settings_oneself:
+                startActivity(new Intent(getContext(), SettingsActivity.class));
                 break;
             //帮助中心
             case R.id.rl_helpcenter_oneself:
+                startActivity(new Intent(getContext(), HelpCenterActivity.class));
                 break;
         }
     }

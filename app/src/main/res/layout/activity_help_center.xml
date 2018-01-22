@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.admiralfivetigers.fiveghost.ui.activity.HelpCenterActivity">
+
+    <include
+        android:id="@+id/top_helpcenter"
+        layout="@layout/title_all"></include>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_help"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/top_helpcenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="关于我们"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_right_arrow"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_xxx_help"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rl_about_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="XXXXX"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_right_arrow"
+            />
+    </RelativeLayout>
+</RelativeLayout>

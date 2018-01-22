@@ -167,6 +167,15 @@
             android:name="com.admiralfivetigers.fiveghost.AndFixActivity"
             android:theme="@style/TranslucentTheme" />
         <activity
+            android:name="com.admiralfivetigers.fiveghost.ui.activity.SettingsActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name="com.admiralfivetigers.fiveghost.ui.activity.HelpCenterActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
+            android:name="com.admiralfivetigers.fiveghost.ui.activity.AccountSecurityActivity"
+            android:theme="@style/TranslucentTheme" />
+        <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"
             android:screenOrientation="sensorLandscape"
