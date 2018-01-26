@@ -1,9 +1,10 @@
-package com.admiralfivetigers.fiveghost.ui.activity;
+package com.admiralfivetigers.fiveghost.ui.activity.settings;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.admiralfivetigers.fiveghost.R;
@@ -11,7 +12,7 @@ import com.admiralfivetigers.fiveghost.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class PerfectPasswordActivity extends AppCompatActivity {
+public class HelpCenterActivity extends AppCompatActivity {
 
     @BindView(R.id.iv_back_all)
     ImageView ivBackAll;
@@ -19,13 +20,17 @@ public class PerfectPasswordActivity extends AppCompatActivity {
     TextView tvTitleAll;
     @BindView(R.id.iv_message_all)
     ImageView ivMessageAll;
+    @BindView(R.id.rl_about_help)
+    RelativeLayout rlAboutHelp;
+    @BindView(R.id.rl_xxx_help)
+    RelativeLayout rlXxxHelp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfect_password);
+        setContentView(R.layout.activity_help_center);
         ButterKnife.bind(this);
         ivMessageAll.setVisibility(View.GONE);
-        tvTitleAll.setText("修改密码");
+        tvTitleAll.setText("帮助中心");
     }
 }

@@ -63,4 +63,8 @@ dependencies {
     compile 'com.jaeger.statusbarutil:library:1.4.0'
     //屏幕适配
     compile 'com.zhy:percent-support-extends:1.0.1'
+    /*
+     Auto
+    * */
+    compile 'com.zhy:autolayout:1.4.5'
 }

@@ -12,8 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.admiralfivetigers.fiveghost.R;
-import com.admiralfivetigers.fiveghost.ui.activity.HelpCenterActivity;
-import com.admiralfivetigers.fiveghost.ui.activity.SettingsActivity;
+import com.admiralfivetigers.fiveghost.ui.activity.settings.HelpCenterActivity;
+import com.admiralfivetigers.fiveghost.ui.activity.settings.SettingsActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -10,12 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.admiralfivetigers.fiveghost.R;
 import com.admiralfivetigers.fiveghost.ui.activity.guidestyle.GuideStyleActivity;
+import com.admiralfivetigers.fiveghost.ui.activity.routedetails.RouteDetailsActivity;
 import com.admiralfivetigers.fiveghost.utils.ScrollDisabledListView;
 import com.admiralfivetigers.fiveghost.utils.UIHelper;
 import com.recker.flybanner.FlyBanner;
@@ -107,6 +109,7 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             ((ThreeViewHolder) holder).tv_content_two.setText(stringList1.get(1));
             ((ThreeViewHolder) holder).tv_content_three.setText(stringList1.get(2));
             ((ThreeViewHolder) holder).tv_content_for.setText(stringList1.get(3));
+
         } else if (holder instanceof ForViewHolder) {
             ScrollDisabledListViewAdapter adapter = new ScrollDisabledListViewAdapter(stringList2);
             ((ForViewHolder) holder).viewById.setAdapter(adapter);
@@ -160,6 +163,7 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         private TextView tv_content_two;
         private TextView tv_content_three;
         private TextView tv_content_for;
+        private LinearLayout lineOne;
 
         public ThreeViewHolder(View v3) {
             super(v3);
@@ -167,6 +171,13 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             tv_content_two = v3.findViewById(R.id.tv_content_two);
             tv_content_three = v3.findViewById(R.id.tv_content_three);
             tv_content_for = v3.findViewById(R.id.tv_content_for);
+            lineOne = v3.findViewById(R.id.line_one_three);
+            lineOne.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    context.startActivity(new Intent(context, RouteDetailsActivity.class));
+                }
+            });
         }
     }
 

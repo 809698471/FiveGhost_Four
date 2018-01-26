@@ -172,7 +172,7 @@ public class ZxingActivity extends AppCompatActivity implements View.OnClickList
                 break;
             //热修复
             case R.id.btn_test01:
-                   startActivity(new Intent(ZxingActivity.this,AndFixActivity.class));
+
                 break;
         }
     }

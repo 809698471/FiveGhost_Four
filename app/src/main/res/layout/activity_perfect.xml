@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.admiralfivetigers.fiveghost.ui.activity.PerfectActivity">
+    tools:context="com.admiralfivetigers.fiveghost.ui.activity.settings.PerfectActivity">
   <include layout="@layout/title_all"></include>
     <EditText
         android:layout_width="match_parent"

@@ -125,23 +125,32 @@
             android:value="true" />
 
         <activity
-            android:name=".AndFixActivity"
+            android:name=".ui.activity.settings.SettingsActivity"
             android:theme="@style/TranslucentTheme" />
         <activity
-            android:name=".ui.activity.SettingsActivity"
+            android:name=".ui.activity.settings.HelpCenterActivity"
             android:theme="@style/TranslucentTheme" />
         <activity
-            android:name=".ui.activity.HelpCenterActivity"
+            android:name=".ui.activity.settings.AccountSecurityActivity"
             android:theme="@style/TranslucentTheme" />
-        <activity
-            android:name=".ui.activity.AccountSecurityActivity"
-            android:theme="@style/TranslucentTheme" />
-        <activity android:name=".ui.activity.PerfectActivity" />
-        <activity android:name=".ui.activity.PerfectPasswordActivity" />
+        <activity android:name=".ui.activity.settings.PerfectActivity" />
+        <activity android:name=".ui.activity.settings.PerfectPasswordActivity" />
         <activity android:name=".ui.activity.releaseitinerary.ReleaseitineraryActivity" />
         <activity android:name=".ui.activity.releaseitinerary.releasefragment.ItineraryActivity" />
         <activity android:name=".ui.activity.guidestyle.GuideStyleActivity" />
-        <activity android:name=".ui.activity.guidestyle.GuideDetailActivity"></activity>
+        <activity android:name=".ui.activity.guidestyle.GuideDetailActivity" />
+
+        <meta-data
+            android:name="design_width"
+            android:value="750" />
+        <meta-data
+            android:name="design_height"
+            android:value="1334" />
+
+        <activity android:name=".ui.activity.routedetails.RouteDetailsActivity" />
+        <activity android:name=".ui.activity.routedetails.SelectionDateActivity" />
+        <activity android:name=".ui.activity.routedetails.FillOutOrdersActivity" />
+        <activity android:name=".ui.activity.routedetails.DetailsOfOrdersActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.admiralfivetigers.fiveghost.ui.activity;
+package com.admiralfivetigers.fiveghost.ui.activity.settings;
 
 import android.content.Intent;
 import android.os.Bundle;
