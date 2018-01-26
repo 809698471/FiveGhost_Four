@@ -1,20 +1,28 @@
 package com.admiralfivetigers.fiveghost;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 
+import com.admiralfivetigers.fiveghost.ui.activity.releaseitinerary.ReleaseitineraryActivity;
 import com.admiralfivetigers.fiveghost.ui.fragment.OnedelfFragment;
 import com.admiralfivetigers.fiveghost.ui.fragment.OrderFragment;
 import com.admiralfivetigers.fiveghost.ui.fragment.ShtickFragment;
 import com.admiralfivetigers.fiveghost.ui.fragment.SuggestFragment;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    @BindView(R.id.main_img)
+    ImageView mainImg;
     private FrameLayout framlayout;
     private RadioButton rb_main_01;
     private RadioButton rb_02;
@@ -34,8 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         initView();
-    initData();
+        initData();
     }
 
     private void initData() {
@@ -48,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         transaction.add(R.id.framlayout, suggestFragment);
         //方法2隐藏所有的Fragment。
 //        hideAll(transaction);
-       transaction.commit();
+        transaction.commit();
     }
 
     private void initView() {
@@ -59,17 +68,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rb_04 = (RadioButton) findViewById(R.id.rb_04);
         rb_05 = (RadioButton) findViewById(R.id.rb_05);
 //        //判断home_pager是否为null
-      if (suggestFragment == null) {
-          suggestFragment=new SuggestFragment();
+        if (suggestFragment == null) {
+            suggestFragment = new SuggestFragment();
 //            //设置首页默认被选中
-          rb_main_01.setChecked(true);
-      }
+            rb_main_01.setChecked(true);
+        }
 
         rb_main_01.setOnClickListener(this);
         rb_02.setOnClickListener(this);
         rb_03.setOnClickListener(this);
         rb_04.setOnClickListener(this);
         rb_05.setOnClickListener(this);
+        mainImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ReleaseitineraryActivity.class));
+            }
+        });
     }
 
     @Override

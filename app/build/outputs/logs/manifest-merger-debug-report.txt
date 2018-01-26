@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
+ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\186e59240d5f7fce73d7c4e17a9db381\AndroidManifest.xml:15:1-21:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\59e8798567eab55cb8d6f227cba8fd2c\AndroidManifest.xml:17:1-55:12
 MERGED from [:PushSDK] D:\Android\ThreeCoder\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-162:12
@@ -29,20 +29,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\韩学文\.gra
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2386af54cac9104168c00006f2d24c77\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\00b441920f9929dccf8285bb6bc6b5f6\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9d83dd2efe06207e5f52cf155a33a714\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
+INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
 	package
 		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
+		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-143:12
+		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:1-144:12
 		INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:2:11-69
@@ -99,7 +99,7 @@ ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:21:22-65
 application
-ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:23:5-141:19
+ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:23:5-142:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\59e8798567eab55cb8d6f227cba8fd2c\AndroidManifest.xml:45:5-53:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\韩学文\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\59e8798567eab55cb8d6f227cba8fd2c\AndroidManifest.xml:45:5-53:19
 MERGED from [:PushSDK] D:\Android\ThreeCoder\FiveGhost_Four\PushSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-160:19
@@ -357,9 +357,13 @@ ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:139:19-62
 activity#com.admiralfivetigers.fiveghost.ui.activity.PerfectPasswordActivity
-ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:140:9-82
+ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:140:9-73
 	android:name
 		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:140:19-70
+activity#com.admiralfivetigers.fiveghost.ui.activity.releaseitinerary.ReleaseitineraryActivity
+ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:141:9-100
+	android:name
+		ADDED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml:141:19-88
 uses-sdk
 INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android\ThreeCoder\FiveGhost_Four\app\src\main\AndroidManifest.xml

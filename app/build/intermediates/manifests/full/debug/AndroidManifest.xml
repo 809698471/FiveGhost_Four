@@ -177,6 +177,7 @@
             android:theme="@style/TranslucentTheme" />
         <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.PerfectActivity" />
         <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.PerfectPasswordActivity" />
+        <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.releaseitinerary.ReleaseitineraryActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

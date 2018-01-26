@@ -137,7 +137,8 @@
             android:name=".ui.activity.AccountSecurityActivity"
             android:theme="@style/TranslucentTheme" />
         <activity android:name=".ui.activity.PerfectActivity" />
-        <activity android:name=".ui.activity.PerfectPasswordActivity"></activity>
+        <activity android:name=".ui.activity.PerfectPasswordActivity" />
+        <activity android:name=".ui.activity.releaseitinerary.ReleaseitineraryActivity"></activity>
     </application>
 
 </manifest>
