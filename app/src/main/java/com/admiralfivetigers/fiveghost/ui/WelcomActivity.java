@@ -21,6 +21,9 @@ import com.jaeger.library.StatusBarUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+*  欢迎页面
+* */
 public class WelcomActivity extends AppCompatActivity {
 
 

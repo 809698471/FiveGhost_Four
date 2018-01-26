@@ -19,7 +19,9 @@ import com.admiralfivetigers.fiveghost.ui.fragment.SuggestFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-
+/*
+*  主界面
+* */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @BindView(R.id.main_img)
     ImageView mainImg;

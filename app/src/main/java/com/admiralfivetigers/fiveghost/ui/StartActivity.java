@@ -10,7 +10,9 @@ import android.widget.RelativeLayout;
 import com.admiralfivetigers.fiveghost.R;
 import com.admiralfivetigers.fiveghost.utils.PrefUtils;
 import com.jaeger.library.StatusBarUtil;
-
+/*
+*  启动页
+* */
 public class StartActivity extends AppCompatActivity {
     private Handler handler = new Handler();
     private RelativeLayout rlSplash;

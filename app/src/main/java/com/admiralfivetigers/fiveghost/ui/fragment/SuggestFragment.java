@@ -27,7 +27,6 @@ import java.util.List;
  * 也不做平淡生活里委曲求全的谁
  */
 //推荐
-
 @SuppressLint("ValidFragment")
 public class SuggestFragment extends Fragment {
 

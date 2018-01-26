@@ -19,7 +19,9 @@ import android.widget.Toast;
 
 import com.admiralfivetigers.fiveghost.MainActivity;
 import com.admiralfivetigers.fiveghost.R;
-
+/*
+* 登陆界面
+* */
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView login_zhuce;
