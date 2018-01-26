@@ -135,7 +135,9 @@
             android:theme="@style/TranslucentTheme" />
         <activity
             android:name=".ui.activity.AccountSecurityActivity"
-            android:theme="@style/TranslucentTheme"></activity>
+            android:theme="@style/TranslucentTheme" />
+        <activity android:name=".ui.activity.PerfectActivity" />
+        <activity android:name=".ui.activity.PerfectPasswordActivity"></activity>
     </application>
 
 </manifest>

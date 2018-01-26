@@ -1,5 +1,6 @@
 package com.admiralfivetigers.fiveghost.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,7 +18,7 @@ import butterknife.ButterKnife;
 *    手机号
 *    修改密码
 * */
-public class AccountSecurityActivity extends AppCompatActivity {
+public class AccountSecurityActivity extends AppCompatActivity implements View.OnClickListener {
 
     @BindView(R.id.iv_back_all)
     ImageView ivBackAll;
@@ -37,5 +38,20 @@ public class AccountSecurityActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         tvTitleAll.setText("账号安全");
         ivMessageAll.setVisibility(View.GONE);
+        rlPassworldAccount.setOnClickListener(this);
+        rlPhonenumberAccount.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.rl_phonenumber_account:
+                startActivity(new Intent(AccountSecurityActivity.this, PerfectActivity.class));
+                break;
+            case R.id.rl_passworld_account:
+                startActivity(new Intent(AccountSecurityActivity.this, PerfectPasswordActivity.class));
+                break;
+        }
+
     }
 }
