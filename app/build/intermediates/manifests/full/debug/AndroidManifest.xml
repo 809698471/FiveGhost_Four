@@ -179,6 +179,8 @@
         <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.PerfectPasswordActivity" />
         <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.releaseitinerary.ReleaseitineraryActivity" />
         <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.releaseitinerary.releasefragment.ItineraryActivity" />
+        <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.guidestyle.GuideStyleActivity" />
+        <activity android:name="com.admiralfivetigers.fiveghost.ui.activity.guidestyle.GuideDetailActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

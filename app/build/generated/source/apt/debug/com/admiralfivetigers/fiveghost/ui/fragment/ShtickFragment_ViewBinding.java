@@ -3,8 +3,8 @@ package com.admiralfivetigers.fiveghost.ui.fragment;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ListView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.admiralfivetigers.fiveghost.R;
@@ -18,7 +18,7 @@ public class ShtickFragment_ViewBinding implements Unbinder {
   public ShtickFragment_ViewBinding(ShtickFragment target, View source) {
     this.target = target;
 
-    target.rvShtick = Utils.findRequiredViewAsType(source, R.id.rv_shtick, "field 'rvShtick'", RecyclerView.class);
+    target.rvShtick = Utils.findRequiredViewAsType(source, R.id.rv_shtick, "field 'rvShtick'", ListView.class);
   }
 
   @Override

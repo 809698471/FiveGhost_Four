@@ -1,6 +1,7 @@
 package com.admiralfivetigers.fiveghost.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -10,9 +11,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.admiralfivetigers.fiveghost.R;
+import com.admiralfivetigers.fiveghost.ui.activity.guidestyle.GuideStyleActivity;
 import com.admiralfivetigers.fiveghost.utils.ScrollDisabledListView;
 import com.admiralfivetigers.fiveghost.utils.UIHelper;
 import com.recker.flybanner.FlyBanner;
@@ -107,7 +110,12 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         } else if (holder instanceof ForViewHolder) {
             ScrollDisabledListViewAdapter adapter = new ScrollDisabledListViewAdapter(stringList2);
             ((ForViewHolder) holder).viewById.setAdapter(adapter);
-          //  UIHelper.setListViewHeightBasedOnChildren(((ForViewHolder) holder).viewById);
+            ((ForViewHolder) holder).guidestyle.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    context.startActivity(new Intent(context, GuideStyleActivity.class));
+                }
+            });
         }
     }
 
@@ -166,10 +174,12 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
 
         private ListView viewById;
+        private RelativeLayout guidestyle;
 
         public ForViewHolder(View v4) {
             super(v4);
             viewById = v4.findViewById(R.id.lv_suggect);
+            guidestyle = v4.findViewById(R.id.rl_guidestyle_for);
 
         }
     }
@@ -203,10 +213,10 @@ public class RvSuggestAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             if (convertView == null) {
                 holder = new ViewHolder();
                 convertView = LayoutInflater.from(context).inflate(R.layout.guideitem, parent, false);
-                holder.tv_daoyou=convertView.findViewById(R.id.tv_content_card_for);
+                holder.tv_daoyou = convertView.findViewById(R.id.tv_content_card_for);
                 convertView.setTag(holder);
-            }else {
-                holder= (ViewHolder) convertView.getTag();
+            } else {
+                holder = (ViewHolder) convertView.getTag();
             }
             holder.tv_daoyou.setText(stringList2.get(position));
             return convertView;

@@ -139,7 +139,9 @@
         <activity android:name=".ui.activity.PerfectActivity" />
         <activity android:name=".ui.activity.PerfectPasswordActivity" />
         <activity android:name=".ui.activity.releaseitinerary.ReleaseitineraryActivity" />
-        <activity android:name=".ui.activity.releaseitinerary.releasefragment.ItineraryActivity"></activity>
+        <activity android:name=".ui.activity.releaseitinerary.releasefragment.ItineraryActivity" />
+        <activity android:name=".ui.activity.guidestyle.GuideStyleActivity" />
+        <activity android:name=".ui.activity.guidestyle.GuideDetailActivity"></activity>
     </application>
 
 </manifest>

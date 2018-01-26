@@ -27,7 +27,7 @@ import butterknife.Unbinder;
 public class ShtickFragment extends Fragment {
     Unbinder unbinder;
     @BindView(R.id.rv_shtick)
-    RecyclerView rvShtick;
+    ListView rvShtick;
 
 
     @Nullable
@@ -36,8 +36,6 @@ public class ShtickFragment extends Fragment {
         View view = inflater.inflate(R.layout.shtick, container, false);
 
         unbinder = ButterKnife.bind(this, view);
-        LinearLayoutManager manager = new LinearLayoutManager(getContext());
-        rvShtick.setLayoutManager(manager);
         LvShtickAdapter adapter = new LvShtickAdapter();
         rvShtick.setAdapter(adapter);
         return view;
@@ -50,30 +48,29 @@ public class ShtickFragment extends Fragment {
         unbinder.unbind();
     }
 
-    private class LvShtickAdapter extends RecyclerView.Adapter<LvShtickAdapter.ViewHolder> {
+    private class LvShtickAdapter extends BaseAdapter {
         @Override
-        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View inflate = LayoutInflater.from(getContext()).inflate(R.layout.lvshtickitem, parent, false);
-            ViewHolder holder = new ViewHolder(inflate);
-            return holder;
-        }
-
-        @Override
-        public void onBindViewHolder(ViewHolder holder, int position) {
-
-        }
-
-
-        @Override
-        public int getItemCount() {
+        public int getCount() {
             return 5;
         }
 
-        class ViewHolder extends RecyclerView.ViewHolder {
-
-            public ViewHolder(View itemView) {
-                super(itemView);
-            }
+        @Override
+        public Object getItem(int position) {
+            return null;
         }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.lvshtickitem, parent, false);
+
+            return convertView;
+        }
+
+
     }
 }
