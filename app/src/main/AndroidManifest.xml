@@ -138,7 +138,8 @@
             android:theme="@style/TranslucentTheme" />
         <activity android:name=".ui.activity.PerfectActivity" />
         <activity android:name=".ui.activity.PerfectPasswordActivity" />
-        <activity android:name=".ui.activity.releaseitinerary.ReleaseitineraryActivity"></activity>
+        <activity android:name=".ui.activity.releaseitinerary.ReleaseitineraryActivity" />
+        <activity android:name=".ui.activity.releaseitinerary.releasefragment.ItineraryActivity"></activity>
     </application>
 
 </manifest>

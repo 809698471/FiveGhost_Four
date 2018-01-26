@@ -18,6 +18,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/*
+*   发布行程
+* */
 public class ReleaseitineraryActivity extends AppCompatActivity {
 
     @BindView(R.id.iv_back_all)
@@ -42,7 +45,7 @@ public class ReleaseitineraryActivity extends AppCompatActivity {
         SubstationTypeFragment substationTypeFragment = new SubstationTypeFragment();
         fragments.add(oneStopShopFragment);
         fragments.add(substationTypeFragment);
-        List<String> strings=new ArrayList<>();
+        List<String> strings = new ArrayList<>();
         strings.add("一站式发布");
         strings.add("分站式发布");
         vpRelease.setAdapter(new ReleaseAdapter(getSupportFragmentManager(), fragments, strings));
