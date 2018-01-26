@@ -1,4 +1,4 @@
-package com.admiralfivetigers.fiveghost;
+package com.admiralfivetigers.fiveghost.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,6 +16,9 @@ import android.widget.EditText;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.admiralfivetigers.fiveghost.MainActivity;
+import com.admiralfivetigers.fiveghost.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 

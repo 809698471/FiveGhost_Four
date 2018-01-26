@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/login_pic_bg"
     android:orientation="vertical"
-    tools:context="com.admiralfivetigers.fiveghost.LoginActivity">
+    tools:context="com.admiralfivetigers.fiveghost.ui.LoginActivity">
 
     <View
         android:layout_width="0dp"

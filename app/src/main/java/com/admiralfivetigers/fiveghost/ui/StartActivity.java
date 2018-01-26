@@ -1,4 +1,4 @@
-package com.admiralfivetigers.fiveghost;
+package com.admiralfivetigers.fiveghost.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.RelativeLayout;
 
+import com.admiralfivetigers.fiveghost.R;
 import com.admiralfivetigers.fiveghost.utils.PrefUtils;
 import com.jaeger.library.StatusBarUtil;
 

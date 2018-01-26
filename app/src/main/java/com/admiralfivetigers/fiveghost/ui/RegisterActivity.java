@@ -1,7 +1,9 @@
-package com.admiralfivetigers.fiveghost;
+package com.admiralfivetigers.fiveghost.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.admiralfivetigers.fiveghost.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
